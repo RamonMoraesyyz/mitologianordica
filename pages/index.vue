@@ -12,10 +12,10 @@
       <nuxt-link to="/zeus">
         <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded mr-4 mb-4">Zeus</button>
       </nuxt-link>
-      <nuxt-link to="/héstia">
+      <nuxt-link to="/hestia">
         <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded mr-4 mb-4">Héstia</button>
       </nuxt-link>
-      <nuxt-link to="/démeter">
+      <nuxt-link to="/demeter">
         <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded mr-4 mb-4">Démeter</button>
       </nuxt-link>
       <nuxt-link to="/hera">
@@ -38,7 +38,16 @@ export default {
 </script>
 
 <style scoped>
+
 .bg-brown-dark {
   background-color: #211512; 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital@1&display=swap');
+
+
+body {
+  font-family:  GFS Neohellenic; 
 }
 </style>

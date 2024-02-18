@@ -3,7 +3,7 @@
   
       <!-- Conteúdo esquerdo (imagem) -->
       <div class="w-full md:w-1/2">
-        <img src="../public/zeus.jpg" class="w-full h-auto md:h-full object-cover transform scale-70" />
+        <img src="../public/zeus2.jpeg" class="w-full h-auto md:h-full object-cover transform scale-70" />
       </div>
   
       
