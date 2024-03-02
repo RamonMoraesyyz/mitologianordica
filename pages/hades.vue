@@ -3,7 +3,7 @@
   
       <!-- Conteúdo esquerdo (imagem) -->
       <div class="w-full md:w-1/2 flex items-center justify-center">
-        <img src="../public/hades.jpg" class="w-full h-screen md:h-auto object-cover" />
+        <img src="/hades.jpg" class="w-full h-screen md:h-auto object-cover" />
       </div>
   
       <div class="w-full md:w-1/2 p-4 md:p-8 flex flex-col justify-center">
@@ -11,7 +11,7 @@
         <h1 class="text-2xl md:text-4xl font-bold mb-8 md:mb-10 mt-1 text-center">Hades</h1>
   
         <div class="mb-4 text-center">
-          <label class="mb-2">
+          <label class="mb-2 text-xl">
             <p>Hades, é o deus do submundo e dos mortos. É frequentemente retratado como um personagem sombrio e temido devido à natureza de seu reino e ao seu papel como juiz das almas dos falecidos. No entanto, há equívocos comuns sobre sua aparência que surgiram ao longo do tempo.
 
             Em muitas representações contemporâneas, Hades é retratado como uma figura malévola, muitas vezes equiparado ao diabo cristão, com chifres, pele escura e uma aparência grotesca. Essa representação é em grande parte imprecisa e baseada em interpretações errôneas.
@@ -26,7 +26,7 @@
   
         <div class="mt-4 text-center">
           <nuxt-link to="/">
-            <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded">
+            <button class="bg-zinc-300 hover:bg-zinc-400 text-black font-bold py-2 px-4 rounded">
               Menu
             </button>
           </nuxt-link>

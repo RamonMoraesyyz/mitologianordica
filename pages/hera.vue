@@ -3,7 +3,7 @@
   
       <!-- Conteúdo esquerdo (imagem) -->
       <div class="w-full md:w-1/2">
-        <img src="../public/hera.jpg" class="w-full h-screen md:h-auto object-cover" />
+        <img src="/hera.jpg" class="w-full h-screen md:h-auto object-cover" />
       </div>
   
       
@@ -13,7 +13,7 @@
         <h1 class="text-2xl md:text-4xl font-bold mb-8 md:mb-10 mt-1 text-center">Hera</h1>
   
         <div class="mb-4 text-center">
-        <label class="mb-2"> <p>Hera é uma das principais deusas da mitologia grega, sendo a irmã e esposa de Zeus, o rei dos deuses. Ela é considerada a deusa do casamento, da maternidade e da família, e é frequentemente retratada como uma figura majestosa e poderosa. Hera era filha de Cronos e Reia e, como muitos dos deuses gregos, foi criada no Monte Olimpo.
+        <label class="mb-2 text-xl"> <p>Hera é uma das principais deusas da mitologia grega, sendo a irmã e esposa de Zeus, o rei dos deuses. Ela é considerada a deusa do casamento, da maternidade e da família, e é frequentemente retratada como uma figura majestosa e poderosa. Hera era filha de Cronos e Reia e, como muitos dos deuses gregos, foi criada no Monte Olimpo.
 
         Sua união com Zeus foi uma das mais importantes do panteão grego, embora fosse frequentemente marcada por conflitos e ciúmes. De acordo com a mitologia, Zeus a traiu repetidamente com outras deidades e mortais, o que provocou a ira de Hera e resultou em muitos episódios dramáticos.
 
@@ -28,7 +28,7 @@
 
         <div class="mt-4 text-center">
         <nuxt-link to="/">
-          <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded">
+          <button class="bg-zinc-300 hover:bg-zinc-400 text-black font-bold py-2 px-4 rounded">
              Menu
           </button>
         </nuxt-link>

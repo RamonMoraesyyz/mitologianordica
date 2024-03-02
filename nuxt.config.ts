@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui', '@nuxtjs/google-fonts' ],
-  
+  modules: ['@nuxt/ui' ],
+  css: ["~/assets/css/main.css"],
 
 })

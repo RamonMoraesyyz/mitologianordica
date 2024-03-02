@@ -3,7 +3,7 @@
   
       <!-- Conteúdo esquerdo (imagem) -->
       <div class="w-full md:w-1/2 flex items-center justify-center">
-        <img src="../public/poseidon.jpg" class="w-full h-screen md:h-auto object-cover" />
+        <img src="/poseidon.jpg" class="w-full h-screen md:h-auto object-cover" />
       </div>
   
       <div class="w-full md:w-1/2 p-4 md:p-8 flex flex-col justify-center">
@@ -11,7 +11,7 @@
         <h1 class="text-2xl md:text-4xl font-bold mb-8 md:mb-10 mt-1 text-center">Poseidon</h1>
   
         <div class="mb-4 text-center">
-          <label class="mb-2">
+          <label class="mb-2 text-xl">
             <p>Poseidon é uma das divindades mais importantes na mitologia grega, sendo conhecido como o deus dos mares, das tempestades, dos terremotos e dos cavalos. Ele é frequentemente retratado como uma figura poderosa e imponente, associada ao vasto e imprevisível oceano. Poseidon era filho dos titãs Cronos e Reia, e irmão de Zeus e Hades, fazendo parte da segunda geração de deuses olímpicos.
 
             Como senhor dos mares, Poseidon tinha controle sobre as águas e era frequentemente retratado carregando um tridente, seu símbolo distintivo e uma arma temida. Ele era adorado por marinheiros e pescadores, que o invocavam para garantir viagens seguras e boas pescarias, mas também temido por sua capacidade de provocar tempestades e maremotos.
@@ -28,7 +28,7 @@
   
         <div class="mt-4 text-center">
           <nuxt-link to="/">
-            <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded">
+            <button class="bg-zinc-300 hover:bg-zinc-400 text-black font-bold py-2 px-4 rounded">
               Menu
             </button>
           </nuxt-link>
