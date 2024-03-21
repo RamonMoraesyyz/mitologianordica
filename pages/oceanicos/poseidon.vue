@@ -14,13 +14,17 @@
           <label class="mb-2 text-xl">
             <p>Poseidon é uma das divindades mais importantes na mitologia grega, sendo conhecido como o deus dos mares, das tempestades, dos terremotos e dos cavalos. Ele é frequentemente retratado como uma figura poderosa e imponente, associada ao vasto e imprevisível oceano. Poseidon era filho dos titãs Cronos e Reia, e irmão de Zeus e Hades, fazendo parte da segunda geração de deuses olímpicos.
 
+              <br>
+
             Como senhor dos mares, Poseidon tinha controle sobre as águas e era frequentemente retratado carregando um tridente, seu símbolo distintivo e uma arma temida. Ele era adorado por marinheiros e pescadores, que o invocavam para garantir viagens seguras e boas pescarias, mas também temido por sua capacidade de provocar tempestades e maremotos.
 
             Além de seu domínio sobre os oceanos, Poseidon também era conhecido por sua rivalidade com seu irmão Zeus. Ambos disputaram o domínio do Monte Olimpo e do mundo dos mortais, e Poseidon frequentemente desafiava a autoridade de Zeus, resultando em conflitos e disputas entre os deuses.
+            <br>
 
             Poseidon teve vários filhos e filhas em suas muitas aventuras amorosas, incluindo criaturas mitológicas como o cavalo alado Pégaso e o ciclope Polifemo. Seus descendentes também incluem heróis como Teseu, que foi criado em parte pelo deus do mar.
 
             Na arte e na literatura grega, Poseidon é frequentemente retratado como um homem imponente e barbudo, vestindo uma túnica e segurando seu tridente. Ele é muitas vezes representado cavalgando pelas ondas em um carro puxado por cavalos marinhos.
+            <br>
 
             Apesar de sua personalidade tempestuosa e suas frequentes disputas com outros deuses, Poseidon era uma figura reverenciada na Grécia Antiga, com templos e festivais dedicados a ele em várias cidades costeiras. Sua influência perdurou por séculos após o declínio da cultura grega, e ele continua sendo uma das figuras mais emblemáticas e poderosas da mitologia.</p>
           </label>
