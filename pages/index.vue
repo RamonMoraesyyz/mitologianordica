@@ -10,7 +10,7 @@ export default {
 
       <h1 class="text-7xl text-center">Mitologia Grega</h1>
 
-      <img src="/index.png" alt="Índice" class="mb-8">
+      <img src="/welcome.png" alt="Índice" class="mb-8">
     </div>
 
     <div class="flex flex-col justify-center items-center w-full md:w-1/2 px-12 py-12">
