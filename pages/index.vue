@@ -60,6 +60,7 @@
         </nuxt-link>
         <nuxt-link to="/olimpicos/dionsio">
           <button class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Dionísio</button>
+        <nuxt-link to="/olimpicos/dionisio">
         </nuxt-link>
 
       </div>
