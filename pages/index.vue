@@ -21,8 +21,7 @@ export default {
         a nossa cultura e a entender temas como ética, moralidade e heroísmo.
         Além disso, os mitos gregos trazem reflexões sobre as origens da civilização ocidental e fornecem reflexões
         significativas sobre a natureza humana e os desafios enfrentados pela sociedade moderna.
-        O objetivo do projeto é ser um catálogo da mitologia grega com breves descrições dos personagens e para ilustrar,
-        imagens geradas por IA.</p>
+       </p>
 
       <p class="text-2xl mb-8 font-bold">A segunda geração de deuses, os oceânicos, filhos dos titãs Crono e Réia:</p>
       <div class="flex flex-wrap justify-center">

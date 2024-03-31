@@ -3,8 +3,8 @@
     class="relative bg-white text-black flex flex-col md:flex-row min-h-screen overflow-hidden"
   >
     <!-- Conteúdo esquerdo (imagem) -->
-    <div class="w-full md:w-1/2 flex items-center justify-center">
-      <img src="/poseidon.png" class="w-full h-screen md:h-auto object-cover" />
+    <div class="w-full h-screen md:w-1/2 md:h-auto overflow-hidden">
+      <img src="/poseidon.jpg" class="w-full h-full object-cover" />
     </div>
 
     <div class="w-full md:w-1/2 p-4 md:p-8 flex flex-col justify-center">
