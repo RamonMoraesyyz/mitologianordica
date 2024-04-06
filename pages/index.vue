@@ -21,71 +21,9 @@ export default {
         a nossa cultura e a entender temas como ética, moralidade e heroísmo.
         Além disso, os mitos gregos trazem reflexões sobre as origens da civilização ocidental e fornecem reflexões
         significativas sobre a natureza humana e os desafios enfrentados pela sociedade moderna.
-       </p>
+      </p>
 
-      <p class="text-2xl mb-8 font-bold">A segunda geração de deuses, os oceânicos, filhos dos titãs Crono e Réia:</p>
-      <div class="flex flex-wrap justify-center">
-        <nuxt-link to="/oceanicos/zeus">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Zeus</button>
-        </nuxt-link>
-        <nuxt-link to="/oceanicos/hestia">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl  font-bold py-2 px-4 rounded mr-4 mb-4">Héstia</button>
-        </nuxt-link>
-        <nuxt-link to="/oceanicos/demeter">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl  font-bold py-2 px-4 rounded mr-4 mb-4">Démeter</button>
-        </nuxt-link>
-        <nuxt-link to="/oceanicos/hera">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Hera</button>
-        </nuxt-link>
-        <nuxt-link to="/oceanicos/hades">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Hades</button>
-        </nuxt-link>
-        <nuxt-link to="/oceanicos/poseidon">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Poseidon</button>
-        </nuxt-link>
-      </div>
-
-      <p class="text-2xl mb-8 font-bold">A terceira geração de deuses, os olímpicos são:</p>
-      <div class="flex flex-wrap justify-center">
-        <nuxt-link to="/olimpicos/atena">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Atena</button>
-        </nuxt-link>
-        <nuxt-link to="/olimpicos/apolo">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl  font-bold py-2 px-4 rounded mr-4 mb-4">Apolo</button>
-        </nuxt-link>
-        <nuxt-link to="/olimpicos/artemis">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl  font-bold py-2 px-4 rounded mr-4 mb-4">Ártemis</button>
-        </nuxt-link>
-        <nuxt-link to="/olimpicos/hermes">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Hermes</button>
-        </nuxt-link>
-        <nuxt-link to="/olimpicos/ares">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Ares</button>
-        </nuxt-link>
-        <nuxt-link to="/olimpicos/hefesto">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Hefesto</button>
-        </nuxt-link>
-        <nuxt-link to="/olimpicos/afrodite">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Afrodite</button>
-        </nuxt-link>
-        <nuxt-link to="/olimpicos/dionisio">
-          <button
-            class="bg-zinc-300 hover:bg-zinc-400 text-black text-xl font-bold py-2 px-4 rounded mr-4 mb-4">Dionísio</button>
-        </nuxt-link>
-      </div>
+     
     </div>
   </div>
 </template>
