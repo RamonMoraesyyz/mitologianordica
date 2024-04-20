@@ -5,7 +5,7 @@
     <!-- Conteúdo esquerdo (imagem) -->
     <div class="w-full md:w-1/2">
       <img
-        src="/zeus2.png"
+        src="/public/deuses/zeus2.png"
         class="w-full h-auto md:h-full object-cover transform scale-70"
       />
     </div>

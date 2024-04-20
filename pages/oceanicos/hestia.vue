@@ -4,7 +4,7 @@
   >
     <!-- Conteúdo esquerdo (imagem) -->
     <div class="w-full md:w-1/2">
-      <img src="/hestia.png" class="w-full h-screen md:h-auto object-cover" />
+      <img src="/public/deuses/hestia.png" class="w-full h-screen md:h-auto object-cover" />
     </div>
 
     <div class="w-full md:w-1/2 p-4 md:p-8 flex flex-col justify-center">

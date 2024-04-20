@@ -2,7 +2,7 @@
   <div id="app">
     <header class="main-header" style="background-color: black; color: white;">
       <nav class="nav-links">
-        <b><router-link to="/titas"></router-link></b>
+        
         <div class="dropdown" @mouseenter="dropdownOpenTitans = true" @mouseleave="dropdownOpenTitans = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenTitans">
             <b>Titãs</b>
@@ -12,8 +12,15 @@
             <router-link class="dropdown-item" to="/titas/gaia">Gaia</router-link>
             <div class="dropdown-divider"></div>
             <router-link class="dropdown-item" to="/titas/cronos">Cronos</router-link>
+            <router-link class="dropdown-item" to="/titas/reia">Réia</router-link>
             <router-link class="dropdown-item" to="/titas/oceano">Oceano</router-link>
             <router-link class="dropdown-item" to="/titas/ceos">Céos</router-link>
+            <router-link class="dropdown-item" to="/titas/febe">Febe</router-link>
+            <router-link class="dropdown-item" to="/titas/teia">Téia</router-link>
+            <router-link class="dropdown-item" to="/titas/hiperion">Hiperion</router-link>
+            <router-link class="dropdown-item" to="/titas/tebas">Tebas</router-link>
+            <router-link class="dropdown-item" to="/titas/japeto">Jápeto</router-link>
+            <router-link class="dropdown-item" to="/titas/tetis">Tétis</router-link>
             <!-- Adicione outros links dos Titãs aqui -->
           </div>
         </div>
@@ -115,6 +122,13 @@ export default {
   display: block;
   text-decoration: none;
   color: inherit;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: black; /* Define o fundo branco para o dropdown */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+  z-index: 1; /* Garante que o dropdown esteja acima dos demais elementos */
 }
 
 .dropdown-divider {
