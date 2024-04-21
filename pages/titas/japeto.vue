@@ -19,7 +19,7 @@
 
             <p class="mb-2 text-xl">
                 Jápeto é mais conhecido por ser o pai de alguns dos titãs mais famosos, como Prometeu (o criador da humanidade e defensor dos mortais), Epimeteu (associado às consequências não planejadas) e Atlas (o titã que sustentava os céus).
-Simbologia e Importância: Jápeto tem uma simbologia ligada à geração dos titãs e à transição de poder entre as eras mitológicas. Seus filhos desempenham papéis fundamentais na mitologia grega, especialmente Prometeu, cujas ações têm implicações profundas na relação entre deuses e humanos.
+                Simbologia e Importância: Jápeto tem uma simbologia ligada à geração dos titãs e à transição de poder entre as eras mitológicas. Seus filhos desempenham papéis fundamentais na mitologia grega, especialmente Prometeu, cujas ações têm implicações profundas na relação entre deuses e humanos.
  
             </p>
             

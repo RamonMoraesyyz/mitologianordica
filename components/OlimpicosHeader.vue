@@ -20,7 +20,12 @@
             <router-link class="dropdown-item" to="/titas/hiperion">Hiperion</router-link>
             <router-link class="dropdown-item" to="/titas/tebas">Tebas</router-link>
             <router-link class="dropdown-item" to="/titas/japeto">Jápeto</router-link>
+            <router-link class="dropdown-item" to="/titas/climene">Clímene</router-link>
             <router-link class="dropdown-item" to="/titas/tetis">Tétis</router-link>
+            <router-link class="dropdown-item" to="/titas/mnemosine">Mnemosine</router-link>
+            <router-link class="dropdown-item" to="/titas/prometeu">Prometeu</router-link>
+            <router-link class="dropdown-item" to="/titas/atlas">Atlas</router-link>
+            <router-link class="dropdown-item" to="/titas/epimeteu">Epimeteu</router-link>
             <!-- Adicione outros links dos Titãs aqui -->
           </div>
         </div>
