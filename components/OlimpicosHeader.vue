@@ -57,8 +57,9 @@
             <b>Heróis</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeroes" aria-labelledby="dropdownMenuHeroes">
-            <router-link class="dropdown-item" to="/herois/perseu">Perseu</router-link>
             <router-link class="dropdown-item" to="/herois/heracles">Héracles</router-link>
+            <router-link class="dropdown-item" to="/herois/perseu">Perseu</router-link>
+            
             <!-- Adicione outros links dos Heróis aqui -->
           </div>
         </div>
