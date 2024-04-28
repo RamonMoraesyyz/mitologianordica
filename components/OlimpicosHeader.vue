@@ -59,6 +59,14 @@
           <div class="dropdown-menu" v-show="dropdownOpenHeroes" aria-labelledby="dropdownMenuHeroes">
             <router-link class="dropdown-item" to="/herois/heracles">Héracles</router-link>
             <router-link class="dropdown-item" to="/herois/perseu">Perseu</router-link>
+            <router-link class="dropdown-item" to="/herois/teseu">Teseu</router-link>
+            <router-link class="dropdown-item" to="/herois/aquiles">Aquiles</router-link>
+            <router-link class="dropdown-item" to="/herois/ulisses">Ulisses</router-link>
+            <router-link class="dropdown-item" to="/herois/jasao">Jasão</router-link>
+            <router-link class="dropdown-item" to="/herois/belerofonte">Beleforonte</router-link>
+            <router-link class="dropdown-item" to="/herois/atalanta">Atalanta</router-link>
+            <router-link class="dropdown-item" to="/herois/diomedes">Diomedes</router-link>
+            <router-link class="dropdown-item" to="/herois/orfeu">Orfeu</router-link>
             
             <!-- Adicione outros links dos Heróis aqui -->
           </div>

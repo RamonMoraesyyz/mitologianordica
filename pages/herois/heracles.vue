@@ -28,7 +28,10 @@
                 Os 12 trabalhos de Hércules representaram sua penitência e bravura. 
                 Derrotar o Leão da Nemeia, matar a Hidra de Lerna, capturar o javali de Erimanto e limpar os estábulos de Áugias foram alguns dos desafios lendários que enfrentou. Ao completá-los, Hércules demonstrou não apenas sua força e coragem, mas também sua capacidade de superar obstáculos aparentemente impossíveis, culminando em sua ascensão ao monte Olimpo, onde foi aceito entre os deuses como um herói imortal.
                 Apesar de sua força e bravura, Hércules sempre foi tutelado e ajudado pela deusa Atena.
+                Uma curiosidade sobre o significado do seu nome é que o nome "Heracles" em grego antigo é composto por duas partes:
 
+                Hera: O primeiro elemento do nome, "Hera," refere-se à deusa Hera, esposa de Zeus. No entanto, o nome de Heracles não é uma homenagem direta a Hera, mas sim um reflexo da complicada relação entre Heracles e a deusa. Hera foi uma das principais opositoras de Heracles e causou muitos desafios e adversidades em sua vida, o que torna a escolha do nome um tanto irônica.
+                Kles: A segunda parte do nome, "kles," significa "glória" em grego. Assim, o nome Heracles pode ser interpretado como "a glória de Hera," embora, ironicamente, ele tenha enfrentado muitos desafios e dificuldades causados diretamente por Hera.
 
 
 
