@@ -49,6 +49,7 @@
             <router-link class="dropdown-item" to="/olimpicos/hefesto">Hefesto</router-link>
             <router-link class="dropdown-item" to="/olimpicos/afrodite">Afrodite</router-link>
             <router-link class="dropdown-item" to="/olimpicos/dionisio">Dionísio</router-link>
+            <router-link class="dropdown-item" to="/olimpicos/eros">Eros</router-link>
           </div>
         </div>
         <b><router-link to="/herois"></router-link></b>
@@ -59,6 +60,7 @@
           <div class="dropdown-menu" v-show="dropdownOpenHeroes" aria-labelledby="dropdownMenuHeroes">
             <router-link class="dropdown-item" to="/herois/heracles">Héracles</router-link>
             <router-link class="dropdown-item" to="/herois/perseu">Perseu</router-link>
+            <router-link class="dropdown-item" to="/herois/helena">Helena</router-link>
             <router-link class="dropdown-item" to="/herois/teseu">Teseu</router-link>
             <router-link class="dropdown-item" to="/herois/aquiles">Aquiles</router-link>
             <router-link class="dropdown-item" to="/herois/ulisses">Ulisses</router-link>
@@ -67,6 +69,7 @@
             <router-link class="dropdown-item" to="/herois/atalanta">Atalanta</router-link>
             <router-link class="dropdown-item" to="/herois/diomedes">Diomedes</router-link>
             <router-link class="dropdown-item" to="/herois/orfeu">Orfeu</router-link>
+            <router-link class="dropdown-item" to="/herois/edipo">Édipo</router-link>
             
             <!-- Adicione outros links dos Heróis aqui -->
           </div>
@@ -78,7 +81,17 @@
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenMonsters" aria-labelledby="dropdownMenuMonsters">
             <router-link class="dropdown-item" to="/monstros/medusa">Medusa</router-link>
-            <router-link class="dropdown-item" to="/monstros/cerberus">Cérbero</router-link>
+            <router-link class="dropdown-item" to="/monstros/cerbero">Cérbero</router-link>
+            <router-link class="dropdown-item" to="/monstros/minotauro">Minotauro</router-link>
+            <router-link class="dropdown-item" to="/monstros/quimera">Quimera</router-link>
+            <router-link class="dropdown-item" to="/monstros/hidralerne">Hidra de Lerne</router-link>
+            <router-link class="dropdown-item" to="/monstros/ciclope">Ciclopes</router-link>
+            <router-link class="dropdown-item" to="/monstros/hecatonquiro">Hecatônquiros</router-link>
+            <router-link class="dropdown-item" to="/monstros/grifo">Grifos</router-link>
+            <router-link class="dropdown-item" to="/monstros/esfinge">Esfinge</router-link>
+            <router-link class="dropdown-item" to="/monstros/harpia">Harpias</router-link>
+            <router-link class="dropdown-item" to="/monstros/pegaso">Pégaso</router-link>
+            <router-link class="dropdown-item" to="/monstros/centauro">Centauros</router-link>
             <!-- Adicione outros links dos Monstros aqui -->
           </div>
         </div>
@@ -88,8 +101,10 @@
             <b>Aventuras</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenAdventures" aria-labelledby="dropdownMenuAdventures">
-            <router-link class="dropdown-item" to="/aventuras/odisseia">Odisseia</router-link>
-            <router-link class="dropdown-item" to="/aventuras/jornada-heroi">Jornada do Herói</router-link>
+            <router-link class="dropdown-item" to="/aventuras/titanomaquia">Titanomaquia</router-link>
+            <router-link class="dropdown-item" to="/aventuras/troia">Guerra de Tróia</router-link>
+            <router-link class="dropdown-item" to="/aventuras/dozehercules">12 trabalhos de Hércules</router-link>
+            <router-link class="dropdown-item" to="/aventuras/sisifo">O mito de Sísifo</router-link>
             <!-- Adicione outros links das Aventuras aqui -->
           </div>
         </div>
