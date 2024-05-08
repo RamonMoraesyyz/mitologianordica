@@ -49,6 +49,7 @@
             <router-link class="dropdown-item" to="/olimpicos/hefesto">Hefesto</router-link>
             <router-link class="dropdown-item" to="/olimpicos/afrodite">Afrodite</router-link>
             <router-link class="dropdown-item" to="/olimpicos/dionisio">Dionísio</router-link>
+            <router-link class="dropdown-item" to="/olimpicos/persefone">Perséfone</router-link>
             <router-link class="dropdown-item" to="/olimpicos/eros">Eros</router-link>
           </div>
         </div>
@@ -95,6 +96,25 @@
             <!-- Adicione outros links dos Monstros aqui -->
           </div>
         </div>
+
+
+        <b><router-link to="/locais"></router-link></b>
+        <div class="dropdown" @mouseenter="dropdownOpenLocals = true" @mouseleave="dropdownOpenLocals = false">
+          <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenLocals">
+            <b>Locais sagrados</b>
+          </button>
+          <div class="dropdown-menu" v-show="dropdownOpenLocals" aria-labelledby="dropdownMenuLocals">
+            <router-link class="dropdown-item" to="/locais/olimpo">Monte Olimpo</router-link>
+            <router-link class="dropdown-item" to="/locais/tartaro">Tártaro</router-link>
+            <router-link class="dropdown-item" to="/locais/hades">Reino de Hades</router-link>
+            <router-link class="dropdown-item" to="/locais/delfos">Oráculo de Delfos</router-link>
+
+          
+          </div>
+        </div>
+
+
+
         <b><router-link to="/aventuras"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenAdventures = true" @mouseleave="dropdownOpenAdventures = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenAdventures">
@@ -103,6 +123,8 @@
           <div class="dropdown-menu" v-show="dropdownOpenAdventures" aria-labelledby="dropdownMenuAdventures">
             <router-link class="dropdown-item" to="/aventuras/titanomaquia">Titanomaquia</router-link>
             <router-link class="dropdown-item" to="/aventuras/troia">Guerra de Tróia</router-link>
+            <router-link class="dropdown-item" to="/aventuras/iliada">Ilíada</router-link>
+            <router-link class="dropdown-item" to="/aventuras/odisseia">Odisséia</router-link>
             <router-link class="dropdown-item" to="/aventuras/dozehercules">12 trabalhos de Hércules</router-link>
             <router-link class="dropdown-item" to="/aventuras/sisifo">O mito de Sísifo</router-link>
             <!-- Adicione outros links das Aventuras aqui -->
@@ -123,6 +145,7 @@ export default {
       dropdownOpenGods: false,
       dropdownOpenHeroes: false,
       dropdownOpenMonsters: false,
+      dropdownOpenLocals: false,
       dropdownOpenAdventures: false,
     };
   },
