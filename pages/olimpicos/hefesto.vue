@@ -4,7 +4,7 @@
     >
       <!-- Conteúdo esquerdo (imagem) -->
       <div class="w-full h-screen md:w-1/2 md:h-auto overflow-hidden">
-        <img src="/public/deuses/hefesto.jpg" class="w-full h-full object-cover" />
+        <img src="/public/deuses/hefesto.jpeg" class="w-full h-full object-cover" />
       </div>
          
       <div class="w-full md:w-1/2 p-4 md:p-8 flex flex-col justify-center">

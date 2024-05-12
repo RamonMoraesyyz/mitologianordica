@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
     <header class="main-header" style="background-color: black; color: white;">
       <nav class="nav-links">
         
@@ -85,6 +86,7 @@
             <router-link class="dropdown-item" to="/monstros/cerbero">Cérbero</router-link>
             <router-link class="dropdown-item" to="/monstros/minotauro">Minotauro</router-link>
             <router-link class="dropdown-item" to="/monstros/quimera">Quimera</router-link>
+            <router-link class="dropdown-item" to="/monstros/sereia">Sereia</router-link>
             <router-link class="dropdown-item" to="/monstros/hidralerne">Hidra de Lerne</router-link>
             <router-link class="dropdown-item" to="/monstros/ciclope">Ciclopes</router-link>
             <router-link class="dropdown-item" to="/monstros/hecatonquiro">Hecatônquiros</router-link>
@@ -101,13 +103,18 @@
         <b><router-link to="/locais"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenLocals = true" @mouseleave="dropdownOpenLocals = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenLocals">
-            <b>Locais sagrados</b>
+            <b>Locais</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenLocals" aria-labelledby="dropdownMenuLocals">
             <router-link class="dropdown-item" to="/locais/olimpo">Monte Olimpo</router-link>
             <router-link class="dropdown-item" to="/locais/tartaro">Tártaro</router-link>
             <router-link class="dropdown-item" to="/locais/hades">Reino de Hades</router-link>
             <router-link class="dropdown-item" to="/locais/delfos">Oráculo de Delfos</router-link>
+            <router-link class="dropdown-item" to="/locais/atenas">Cidade de Atenas</router-link>
+            <router-link class="dropdown-item" to="/locais/creta">Ilha de Creta</router-link>
+            <router-link class="dropdown-item" to="/locais/delos">Ilha de Delos</router-link>
+            <router-link class="dropdown-item" to="/locais/styx">Rio Styx</router-link>
+            
 
           
           </div>
@@ -127,6 +134,8 @@
             <router-link class="dropdown-item" to="/aventuras/odisseia">Odisséia</router-link>
             <router-link class="dropdown-item" to="/aventuras/dozehercules">12 trabalhos de Hércules</router-link>
             <router-link class="dropdown-item" to="/aventuras/sisifo">O mito de Sísifo</router-link>
+            <router-link class="dropdown-item" to="/aventuras/labirinto">Labirinto do Minotauro</router-link>
+            <router-link class="dropdown-item" to="/aventuras/argonautas">Jasão e os Argonautas</router-link>
             <!-- Adicione outros links das Aventuras aqui -->
           </div>
         </div>
@@ -159,7 +168,7 @@ export default {
 
 .nav-links {
   display: flex;
-  justify-content: space-between; /* Alterado para espaçamento entre os elementos */
+  justify-content: space-between; /* Espaçamento entre os elementos */
   align-items: center; /* Centraliza verticalmente os elementos */
 }
 
@@ -198,4 +207,10 @@ export default {
     margin-bottom: 10px; /* Adiciona espaçamento abaixo do dropdown */
   }
 }
+
+/* Espaçamento igual entre todos os botões */
+.nav-links .left-buttons > * {
+  margin-right: 5px; /* Espaçamento de 5px entre os botões do canto esquerdo */
+}
+
 </style>

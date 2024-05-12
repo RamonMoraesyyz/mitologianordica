@@ -1,10 +1,9 @@
-<!-- <script>
-export default {
- 
-}
-</script> -->
+
 
 <template>
+      <head>
+        <link rel="icon" type="image/png" href="/static/helmet.png">
+      </head>
   <div class="relative bg-white text-black flex flex-col md:flex-row min-h-screen overflow-hidden">
     <div class="flex flex-col items-center w-full md:w-1/2 px-8 py-11">
 
