@@ -1,6 +1,6 @@
 <template>
   
-      <OlimpicosHeader></OlimpicosHeader>
+      <NordicHeader></NordicHeader>
       <!-- Renderiza o conteúdo da página atual -->
      
 

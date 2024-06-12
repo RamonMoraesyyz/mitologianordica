@@ -6,13 +6,12 @@
         
         <div class="dropdown" @mouseenter="dropdownOpenTitans = true" @mouseleave="dropdownOpenTitans = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenTitans">
-            <b>Titãs</b>
+            <b>Deuses Aesir</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenTitans" aria-labelledby="dropdownMenuTitans">
-            <router-link class="dropdown-item" to="/titas/urano">Urano</router-link>
-            <router-link class="dropdown-item" to="/titas/gaia">Gaia</router-link>
-            <div class="dropdown-divider"></div>
-            <router-link class="dropdown-item" to="/titas/cronos">Cronos</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/odin">Odin</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/thor">Thor</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/loki">Loki</router-link>
             <router-link class="dropdown-item" to="/titas/reia">Réia</router-link>
             <router-link class="dropdown-item" to="/titas/oceano">Oceano</router-link>
             <router-link class="dropdown-item" to="/titas/ceos">Céos</router-link>
@@ -32,7 +31,7 @@
         </div>
         <div class="dropdown" @mouseenter="dropdownOpenGods = true" @mouseleave="dropdownOpenGods = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenGods">
-            <b>Deuses</b>
+            <b>Deuses Vanir</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenGods" aria-labelledby="dropdownMenuGods">
             <router-link class="dropdown-item" to="/oceanicos/zeus">Zeus</router-link>
@@ -57,7 +56,7 @@
         <b><router-link to="/herois"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenHeroes = true" @mouseleave="dropdownOpenHeroes = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenHeroes">
-            <b>Heróis</b>
+            <b>Gigantes</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeroes" aria-labelledby="dropdownMenuHeroes">
             <router-link class="dropdown-item" to="/herois/heracles">Héracles</router-link>
@@ -79,7 +78,7 @@
         <b><router-link to="/monstros"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenMonsters = true" @mouseleave="dropdownOpenMonsters = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenMonsters">
-            <b>Monstros</b>
+            <b>Elfos</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenMonsters" aria-labelledby="dropdownMenuMonsters">
             <router-link class="dropdown-item" to="/monstros/medusa">Medusa</router-link>
@@ -103,7 +102,7 @@
         <b><router-link to="/locais"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenLocals = true" @mouseleave="dropdownOpenLocals = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenLocals">
-            <b>Locais</b>
+            <b>Anões</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenLocals" aria-labelledby="dropdownMenuLocals">
             <router-link class="dropdown-item" to="/locais/olimpo">Monte Olimpo</router-link>
@@ -125,7 +124,7 @@
         <b><router-link to="/aventuras"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenAdventures = true" @mouseleave="dropdownOpenAdventures = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenAdventures">
-            <b>Aventuras</b>
+            <b>Locais sagrados</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenAdventures" aria-labelledby="dropdownMenuAdventures">
             <router-link class="dropdown-item" to="/aventuras/titanomaquia">Titanomaquia</router-link>
@@ -164,6 +163,7 @@ export default {
 <style scoped>
 .main-header {
   padding: 10px;
+ 
 }
 
 .nav-links {

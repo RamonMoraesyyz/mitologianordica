@@ -1,21 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
 
 h1 {
-    font-family: "GFS Neohellenic", sans-serif;
-   
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-p {
-    font-family: "GFS Neohellenic", sans-serif;
-
+p  {
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 button {
-    font-family: "GFS Neohellenic", sans-serif;
-
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 label {
-    font-family: "GFS Neohellenic", sans-serif;
-
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
+
+dropdown {
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-header { 
+font-family: "Caesar Dressing", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+
+  
+ 
+  
+  
