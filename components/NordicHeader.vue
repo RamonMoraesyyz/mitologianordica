@@ -12,20 +12,19 @@
             <router-link class="dropdown-item" to="/deuses-aesir/odin">Odin</router-link>
             <router-link class="dropdown-item" to="/deuses-aesir/thor">Thor</router-link>
             <router-link class="dropdown-item" to="/deuses-aesir/loki">Loki</router-link>
-            <router-link class="dropdown-item" to="/titas/reia">Réia</router-link>
-            <router-link class="dropdown-item" to="/titas/oceano">Oceano</router-link>
-            <router-link class="dropdown-item" to="/titas/ceos">Céos</router-link>
-            <router-link class="dropdown-item" to="/titas/febe">Febe</router-link>
-            <router-link class="dropdown-item" to="/titas/teia">Téia</router-link>
-            <router-link class="dropdown-item" to="/titas/hiperion">Hiperion</router-link>
-            <router-link class="dropdown-item" to="/titas/tebas">Tebas</router-link>
-            <router-link class="dropdown-item" to="/titas/japeto">Jápeto</router-link>
-            <router-link class="dropdown-item" to="/titas/climene">Clímene</router-link>
-            <router-link class="dropdown-item" to="/titas/tetis">Tétis</router-link>
-            <router-link class="dropdown-item" to="/titas/mnemosine">Mnemosine</router-link>
-            <router-link class="dropdown-item" to="/titas/prometeu">Prometeu</router-link>
-            <router-link class="dropdown-item" to="/titas/atlas">Atlas</router-link>
-            <router-link class="dropdown-item" to="/titas/epimeteu">Epimeteu</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/frigg">Frigg</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/baldur">Baldur</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/tyr">Tyr</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/heimdall">Heimdall</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/bragi">Bragi</router-link> 
+            <router-link class="dropdown-item" to="/deuses-aesir/iduna">Iduna</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/forseti">Forseti</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/hodr">Hodr</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/vidar">Vidar</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/vali">Vali</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/ullr">Ullr</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/mimir">Mimir</router-link>
+
             <!-- Adicione outros links dos Titãs aqui -->
           </div>
         </div>
