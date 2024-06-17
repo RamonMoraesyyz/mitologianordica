@@ -33,7 +33,13 @@
             <b>Deuses Vanir</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenGods" aria-labelledby="dropdownMenuGods">
-
+            <router-link class="dropdown-item" to="/deuses-vanir/njord">Njord</router-link>
+            <router-link class="dropdown-item" to="/deuses-vanir/frey">Frey</router-link>
+            <router-link class="dropdown-item" to="/deuses-vanir/freya">Freya</router-link>
+            <router-link class="dropdown-item" to="/deuses-vanir/skadi">Skadi</router-link>
+            <router-link class="dropdown-item" to="/deuses-vanir/gerd">Gerd</router-link>
+            <router-link class="dropdown-item" to="/deuses-vanir/nerthus">Nerthus</router-link>
+            <router-link class="dropdown-item" to="/deuses-vanir/gullveig">Gullveig</router-link>
           </div>
         </div>
         <b><router-link to="/herois"></router-link></b>
