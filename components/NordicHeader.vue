@@ -48,6 +48,12 @@
             <b>Gigantes</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeroes" aria-labelledby="dropdownMenuHeroes">
+            <router-link class="dropdown-item" to="/gigantes/ymir">Ymir</router-link>
+            <router-link class="dropdown-item" to="/gigantes/aegir">Aegir</router-link>
+            <router-link class="dropdown-item" to="/gigantes/angrboda">Angrboda</router-link>
+            <router-link class="dropdown-item" to="/gigantes/baugi">Baugi</router-link>
+            <router-link class="dropdown-item" to="/gigantes/belgemir">Belgemir</router-link>
+            <router-link class="dropdown-item" to="/gigantes/bestla">Bestla</router-link>
 
             
             <!-- Adicione outros links dos Heróis aqui -->
