@@ -37,7 +37,6 @@
             <router-link class="dropdown-item" to="/deuses-vanir/frey">Frey</router-link>
             <router-link class="dropdown-item" to="/deuses-vanir/freya">Freya</router-link>
             <router-link class="dropdown-item" to="/deuses-vanir/skadi">Skadi</router-link>
-            <router-link class="dropdown-item" to="/deuses-vanir/gerd">Gerd</router-link>
             <router-link class="dropdown-item" to="/deuses-vanir/nerthus">Nerthus</router-link>
             <router-link class="dropdown-item" to="/deuses-vanir/gullveig">Gullveig</router-link>
           </div>
@@ -54,6 +53,10 @@
             <router-link class="dropdown-item" to="/gigantes/baugi">Baugi</router-link>
             <router-link class="dropdown-item" to="/gigantes/belgemir">Belgemir</router-link>
             <router-link class="dropdown-item" to="/gigantes/bestla">Bestla</router-link>
+            <router-link class="dropdown-item" to="/gigantes/farbauti">Farbauti</router-link>
+            <router-link class="dropdown-item" to="/gigantes/gerd">Gerd</router-link>
+            <router-link class="dropdown-item" to="/gigantes/byleistr">Byleistr</router-link>
+            <router-link class="dropdown-item" to="/gigantes/gunnlod">Gunnlod</router-link>
 
             
             <!-- Adicione outros links dos Heróis aqui -->
