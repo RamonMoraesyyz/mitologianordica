@@ -57,6 +57,10 @@
             <router-link class="dropdown-item" to="/gigantes/gerd">Gerd</router-link>
             <router-link class="dropdown-item" to="/gigantes/byleistr">Byleistr</router-link>
             <router-link class="dropdown-item" to="/gigantes/gunnlod">Gunnlod</router-link>
+            <router-link class="dropdown-item" to="/gigantes/hymir">Hymir</router-link>
+            <router-link class="dropdown-item" to="/gigantes/skadi">Skadi</router-link>
+            <router-link class="dropdown-item" to="/gigantes/utgard-loki">Utgard-loki</router-link>
+            <router-link class="dropdown-item" to="/gigantes/surtur">Surtur</router-link>
 
             
             <!-- Adicione outros links dos Heróis aqui -->
@@ -65,10 +69,14 @@
         <b><router-link to="/monstros"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenMonsters = true" @mouseleave="dropdownOpenMonsters = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenMonsters">
-            <b>Elfos</b>
+            <b>Anões</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenMonsters" aria-labelledby="dropdownMenuMonsters">
-
+            <router-link class="dropdown-item" to="/anoes/brokk">Brokk</router-link>
+            <router-link class="dropdown-item" to="/anoes/sindri">Sindri</router-link>
+            <router-link class="dropdown-item" to="/anoes/dvalin">Dvalin</router-link>
+            <router-link class="dropdown-item" to="/anoes/andvari">Andvari</router-link>
+            <router-link class="dropdown-item" to="/anoes/alviss">Alviss</router-link>
             <!-- Adicione outros links dos Monstros aqui -->
           </div>
         </div>
