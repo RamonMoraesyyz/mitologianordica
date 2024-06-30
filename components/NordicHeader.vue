@@ -77,6 +77,12 @@
             <router-link class="dropdown-item" to="/anoes/dvalin">Dvalin</router-link>
             <router-link class="dropdown-item" to="/anoes/andvari">Andvari</router-link>
             <router-link class="dropdown-item" to="/anoes/alviss">Alviss</router-link>
+            <router-link class="dropdown-item" to="/anoes/alfrigg">Alfrigg</router-link>
+            <router-link class="dropdown-item" to="/anoes/durin">Durin</router-link>
+            <router-link class="dropdown-item" to="/anoes/galar">Galar</router-link>
+            <router-link class="dropdown-item" to="/anoes/grer">Grer</router-link>
+            <router-link class="dropdown-item" to="/anoes/motsognir">Motsognir</router-link>
+            <router-link class="dropdown-item" to="/anoes/berling">Berling</router-link>
             <!-- Adicione outros links dos Monstros aqui -->
           </div>
         </div>
@@ -85,10 +91,13 @@
         <b><router-link to="/locais"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenLocals = true" @mouseleave="dropdownOpenLocals = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenLocals">
-            <b>Anões</b>
+            <b>Criaturas</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenLocals" aria-labelledby="dropdownMenuLocals">
-
+            <router-link class="dropdown-item" to="/monstros/jormungandr">Jörmungandr</router-link>
+            <router-link class="dropdown-item" to="/monstros/fafnir">Fafnir</router-link>
+            <router-link class="dropdown-item" to="/monstros/nidhogrr">Níðhöggr</router-link>
+            <router-link class="dropdown-item" to="/monstros/fenrir">Fenrir</router-link>
             
 
           
