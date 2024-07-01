@@ -98,6 +98,14 @@
             <router-link class="dropdown-item" to="/monstros/fafnir">Fafnir</router-link>
             <router-link class="dropdown-item" to="/monstros/nidhogrr">Níðhöggr</router-link>
             <router-link class="dropdown-item" to="/monstros/fenrir">Fenrir</router-link>
+            <router-link class="dropdown-item" to="/monstros/hati">Hati </router-link>
+            <router-link class="dropdown-item" to="/monstros/skoll">Skoll </router-link>
+            <router-link class="dropdown-item" to="/monstros/hel">Hel </router-link>
+            <router-link class="dropdown-item" to="/monstros/garmr">Garmr </router-link>
+            <router-link class="dropdown-item" to="/monstros/hraesvelgr"> Hraesvelgr </router-link>
+            <router-link class="dropdown-item" to="/monstros/draugr"> Draugr </router-link>
+            <router-link class="dropdown-item" to="/monstros/trolls"> Trolls </router-link>
+            <router-link class="dropdown-item" to="/monstros/mare"> Mare </router-link>
             
 
           
