@@ -66,6 +66,37 @@
             <!-- Adicione outros links dos Heróis aqui -->
           </div>
         </div>
+
+        <div class="dropdown" @mouseenter="dropdownOpenHeros = true" @mouseleave="dropdownOpenHeros = false">
+          <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenHeros">
+            <b>Heróis</b>
+          </button>
+          <div class="dropdown-menu" v-show="dropdownOpenHeros" aria-labelledby="dropdownMenuTitans">
+            <router-link class="dropdown-item" to="/deuses-aesir/odin">Odin</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/thor">Thor</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/loki">Loki</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/frigg">Frigg</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/baldur">Baldur</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/tyr">Tyr</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/heimdall">Heimdall</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/bragi">Bragi</router-link> 
+            <router-link class="dropdown-item" to="/deuses-aesir/iduna">Iduna</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/forseti">Forseti</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/hodr">Hodr</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/vidar">Vidar</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/vali">Vali</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/ullr">Ullr</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/mimir">Mimir</router-link>
+
+            <!-- Adicione outros links dos Titãs aqui -->
+          </div>
+        </div>
+
+
+
+
+
+
         <b><router-link to="/monstros"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenMonsters = true" @mouseleave="dropdownOpenMonsters = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenMonsters">
@@ -117,9 +148,22 @@
         <b><router-link to="/aventuras"></router-link></b>
         <div class="dropdown" @mouseenter="dropdownOpenAdventures = true" @mouseleave="dropdownOpenAdventures = false">
           <button class="dropdown-toggle" type="button" aria-haspopup="true" :aria-expanded="dropdownOpenAdventures">
-            <b>Locais sagrados</b>
+            <b>Locais</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenAdventures" aria-labelledby="dropdownMenuAdventures">
+            <router-link class="dropdown-item" to="/locais/asgard"> Asgard </router-link>
+            <router-link class="dropdown-item" to="/locais/midgard"> Midgard </router-link>
+            <router-link class="dropdown-item" to="/locais/vanaheim"> Vanaheim </router-link>
+            <router-link class="dropdown-item" to="/locais/alfheim"> Alfheim </router-link>
+            <router-link class="dropdown-item" to="/locais/jotunheim"> Jotunheim </router-link>
+            <router-link class="dropdown-item" to="/locais/muspelheim"> Muspelheim </router-link>
+            <router-link class="dropdown-item" to="/locais/helheim"> Helheim </router-link>
+            <router-link class="dropdown-item" to="/locais/bifrost"> Bifrost </router-link>
+            <router-link class="dropdown-item" to="/locais/yggdrasil"> Yggdrasil </router-link>
+            <router-link class="dropdown-item" to="/locais/folkvangr"> Folkvangr </router-link>
+            <router-link class="dropdown-item" to="/locais/nidavellir"> Nidavellir </router-link>
+            <router-link class="dropdown-item" to="/locais/nilfheim"> Nilfheim </router-link>
+            <router-link class="dropdown-item" to="/locais/valhalla"> Valhalla </router-link>
 
             <!-- Adicione outros links das Aventuras aqui -->
           </div>
@@ -138,6 +182,7 @@ export default {
       dropdownOpenTitans: false,
       dropdownOpenGods: false,
       dropdownOpenHeroes: false,
+      dropdownOpenHeros: false,
       dropdownOpenMonsters: false,
       dropdownOpenLocals: false,
       dropdownOpenAdventures: false,
