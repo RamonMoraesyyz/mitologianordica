@@ -2,9 +2,7 @@
     <div class="flex items-center justify-center h-screen bg-white">
       <div class="text-center card bg-opacity-80 p-8 rounded-lg">
   
-        <div class="relative z-0 text-center">
-  <img src="/static/omega.png" alt="Logo" class="w-56 mx-auto" />
-</div>
+
 
   
         <!-- Conteúdo do erro -->
@@ -12,7 +10,7 @@
           <p v-if="error" class="text-7xl font-bold text-black">{{ error.statusCode }}</p>
           <p class="mt-7 text-2xl text-black font-bold">
             Página não encontrada <br>
-            Peça ao oráculo para voltar ao menu
+            
           </p>
         </div>
   

@@ -72,21 +72,20 @@
             <b>Heróis</b>
           </button>
           <div class="dropdown-menu" v-show="dropdownOpenHeros" aria-labelledby="dropdownMenuTitans">
-            <router-link class="dropdown-item" to="/deuses-aesir/odin">Odin</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/thor">Thor</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/loki">Loki</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/frigg">Frigg</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/baldur">Baldur</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/tyr">Tyr</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/heimdall">Heimdall</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/bragi">Bragi</router-link> 
-            <router-link class="dropdown-item" to="/deuses-aesir/iduna">Iduna</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/forseti">Forseti</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/hodr">Hodr</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/vidar">Vidar</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/vali">Vali</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/ullr">Ullr</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/mimir">Mimir</router-link>
+            <router-link class="dropdown-item" to="/herois/sigurd">Sigurd</router-link>
+            <router-link class="dropdown-item" to="/herois/brynhildr">Brynhildr</router-link>
+            <router-link class="dropdown-item" to="/herois/beoulf">Beoulf</router-link>
+            <router-link class="dropdown-item" to="/herois/gunnar">Gunnar</router-link>
+            <router-link class="dropdown-item" to="/herois/gudrun">Gudrun</router-link>
+            <router-link class="dropdown-item" to="/herois/egil">Egil</router-link>
+            <router-link class="dropdown-item" to="/herois/helgi">Helgi</router-link>
+            <router-link class="dropdown-item" to="/herois/hogni">Hogni</router-link> 
+            <router-link class="dropdown-item" to="/herois/hrolf">Hrolf</router-link>
+            <router-link class="dropdown-item" to="/herois/ragnar">Ragnar</router-link>
+            <router-link class="dropdown-item" to="/herois/bjorn">Bjorn</router-link>
+            <router-link class="dropdown-item" to="/herois/elfos">Elfos</router-link>
+            <router-link class="dropdown-item" to="/herois/valkirias">Valkirias</router-link>
+
 
             <!-- Adicione outros links dos Titãs aqui -->
           </div>
