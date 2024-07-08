@@ -136,6 +136,7 @@
             <router-link class="dropdown-item" to="/monstros/draugr"> Draugr </router-link>
             <router-link class="dropdown-item" to="/monstros/trolls"> Trolls </router-link>
             <router-link class="dropdown-item" to="/monstros/mare"> Mare </router-link>
+            <router-link class="dropdown-item" to="/monstros/sleipnir"> Sleipnir </router-link>
             
 
           
