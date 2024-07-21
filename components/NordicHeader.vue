@@ -23,7 +23,7 @@
             <router-link class="dropdown-item" to="/deuses-aesir/vidar">Vidar</router-link>
             <router-link class="dropdown-item" to="/deuses-aesir/vali">Vali</router-link>
             <router-link class="dropdown-item" to="/deuses-aesir/ullr">Ullr</router-link>
-            <router-link class="dropdown-item" to="/deuses-aesir/mimir">Mimir</router-link>
+            <router-link class="dropdown-item" to="/deuses-aesir/mimir">Mímir</router-link>
 
             <!-- Adicione outros links dos Titãs aqui -->
           </div>
